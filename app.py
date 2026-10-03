@@ -13,7 +13,7 @@ st.title("👁️ Computer Vision – Day 1")
 st.write("Interactive demonstration of all 25 OpenCV and NumPy questions.")
 
 BASE_DIR = Path(__file__).resolve().parent
-IMAGE_PATH = BASE_DIR / "images" / "sample.jpg"
+IMAGE_PATH = Path("sample.jpg")
 OUTPUT_DIR = BASE_DIR / "outputs"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
